@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Activity"
+    tools:context=".MenuActivity">
+
+    <LinearLayout style="@style/ContentContainerParent">
+
+        <LinearLayout style="@style/ContentContainer">
+
+            <FrameLayout
+                android:id="@+id/highscore_fragment_center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

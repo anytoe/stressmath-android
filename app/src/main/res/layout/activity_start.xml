@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Activity"
+    android:orientation="horizontal"
+    tools:context=".MenuActivity">
+
+    <LinearLayout style="@style/ButtonContainerParent">
+
+        <LinearLayout style="@style/ButtonContainer">
+
+            <Button
+                android:id="@+id/start_button_newgame"
+                style="@style/StandardButton"
+                android:text="new game" />
+
+            <Button
+                android:id="@+id/start_button_highscore"
+                style="@style/StandardButton"
+                android:layout_marginTop="@dimen/default_margin_large"
+                android:text="Highscore" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

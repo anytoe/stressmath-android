@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listitem_highscoreitem_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/default_margin_large"
+    android:paddingRight="@dimen/default_margin_large"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/listitem_localhighscoreitem_position"
+        style="@style/HighscoreText"
+        android:layout_width="0dp"
+        android:layout_weight="15" />
+
+    <TextView
+        android:id="@+id/listitem_localhighscoreitem_highscore"
+        style="@style/HighscoreText"
+        android:layout_width="0dp"
+        android:layout_weight="35" />
+
+    <TextView
+        android:id="@+id/listitem_localhighscoreitem_date"
+        style="@style/HighscoreText"
+        android:layout_width="0dp"
+        android:layout_weight="50" />
+
+</LinearLayout>

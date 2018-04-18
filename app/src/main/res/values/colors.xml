@@ -1,0 +1,35 @@
+<resources>
+
+    <color name="Transparent">@android:color/transparent</color>
+
+    <!--<color name="DarkPrimary">#303F9F</color>-->
+    <!--<color name="Primary">#3F51B5</color>-->
+    <!--<color name="LightPrimary">#C5CAE9</color>-->
+    <!--<color name="TextIcons">#FFFFFF</color>-->
+    <!--<color name="Accent">#607D8B</color>-->
+    <!--<color name="PrimaryText">#212121</color>-->
+    <!--<color name="SecondaryText">#727272</color>-->
+    <!--<color name="Divider">#B6B6B6</color>-->
+
+    <!--<color name="DarkPrimary">#</color>-->
+    <!--<color name="Primary">#</color>-->
+    <!--<color name="LightPrimary">#</color>-->
+    <!--<color name="TextIcons">#</color>-->
+    <!--<color name="Accent">#</color>-->
+    <!--<color name="PrimaryText">#</color>-->
+    <!--<color name="SecondaryText">#</color>-->
+    <!--<color name="Divider">#</color>-->
+
+    <color name="DarkPrimary">#1F3A99</color>
+    <color name="Primary">#3858CC</color>
+    <color name="LightPrimary">#99E6FF</color>
+    <color name="TextIcons">#EFEFEF</color>
+    <color name="Accent">#CC3B14</color>
+    <color name="PrimaryText">#212121</color>
+    <color name="SecondaryText">#727272</color>
+    <!--<color name="Divider">#FFF5BF</color>-->
+
+    <color name="Primary_Button">#4866d0</color>
+    <color name="White">#EFEFEF</color>
+
+</resources>

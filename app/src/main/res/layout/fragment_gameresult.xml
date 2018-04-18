@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/fragment_vertical_margin"
+    android:paddingLeft="@dimen/fragment_horizontal_margin"
+    android:paddingRight="@dimen/fragment_horizontal_margin"
+    android:paddingTop="@dimen/fragment_vertical_margin"
+    tools:context="mathchallenge.anytoe.com.mathchallenge.controller.game.GameResultFragment">
+
+    <LinearLayout
+        android:id="@+id/game_button_resultcontainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/game_button_result"
+            style="@style/MediumText" />
+
+        <LinearLayout style="@style/ButtonContainerParent">
+
+            <LinearLayout style="@style/ButtonContainer">
+
+                <Button
+                    android:id="@+id/game_button_restart"
+                    style="@style/StandardButton"
+                    android:text="@string/gameresult_restart" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

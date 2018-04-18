@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Math Speed Challenge</string>
+    <string name="title_activity_game">Math Speed Challenge</string>
+    <string name="title_activity_highscore">Highscore</string>
+
+
+    <string name="gameresult_yourscore">Your score is: {0}</string>
+    <string name="gameresult_restart">Beat that!</string>
+
+    <string name="title_highscore">Your Highscore</string>
+    <string name="title_game">Go!</string>
+
+    <string name="user_userid">User Id:</string>
+    <string name="user_username">Username:</string>
+    <string name="user_confirm">Highscore</string>
+
+    <string name="dateformat">dd. MMM yy</string>
+
+    <string name="highscore_nohighscore">No Highscores yet, you should start playing</string>
+
+
+    <!--Game Strings-->
+
+    <string name="game_timercounting">Alright, let\'s go</string>
+
+    <string name="game_started">Go!</string>
+    <string name="game_scorecount">Score: {0}</string>
+
+    <string name="game_comment1">Not bad!</string>
+    <string name="game_comment2">Good!</string>
+    <string name="game_comment3">Awesome!</string>
+    <string name="game_comment4">Come on!!!</string>
+</resources>

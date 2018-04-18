@@ -1,0 +1,134 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:paddingBottom="@dimen/fragment_vertical_margin"
+    android:paddingLeft="@dimen/fragment_horizontal_margin"
+    android:paddingRight="@dimen/fragment_horizontal_margin"
+    android:paddingTop="@dimen/fragment_vertical_margin"
+    tools:context="mathchallenge.anytoe.com.mathchallenge.controller.game.GameFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--Counter-->
+        <TextView
+            android:id="@+id/game_button_counter"
+            style="@style/CountDown"
+            android:layout_centerInParent="true"
+            android:textStyle="italic"
+            android:visibility="gone" />
+
+        <!--Game-->
+        <LinearLayout
+            android:id="@+id/game_button_gamecontainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:weightSum="2">
+
+            <!--Rest-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ProgressBar
+                    android:id="@+id/problem_progressbar"
+                    style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_alignParentTop="true"
+                    android:progressDrawable="@drawable/progressbar_game" />
+
+                <TextView
+                    android:id="@+id/problem_feedbackmessage"
+                    style="@style/LargeText"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_below="@id/problem_progressbar"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/problem_question"
+                    style="@style/HugeText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@id/problem_progressbar"
+                    android:gravity="center" />
+            </RelativeLayout>
+
+            <!--Buttons-->
+            <LinearLayout
+                android:id="@+id/game_button_buttoncontainer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="11">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="11">
+
+                    <Button
+                        android:id="@+id/problem_button_1"
+                        style="@style/GameSolutionButton"
+                        android:layout_weight="4" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></LinearLayout>
+
+                    <Button
+                        android:id="@+id/problem_button_2"
+                        style="@style/GameSolutionButton"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="11">
+
+                    <Button
+                        android:id="@+id/problem_button_3"
+                        style="@style/GameSolutionButton"
+                        android:layout_weight="4" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"></LinearLayout>
+
+                    <Button
+                        android:id="@+id/problem_button_4"
+                        style="@style/GameSolutionButton"
+                        android:layout_weight="4" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</FrameLayout>
